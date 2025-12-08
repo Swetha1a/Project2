@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.section1 a{
+    color: white;
+}
+.brskt{
+     font-family: "Source Code Pro", monospace;
+}
+
+.section2 {
+    background-image: url(brisket.avif);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    align-content: center;
+    font-family: morgans barbecue;
+}
+
+.section3 {
+     background-image: url(brisket.avif);
+     background-position: center;
+     background-size: cover;
+}
+
+.line-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* space between lines */
+}
+
+.line {
+    height: 2px;
+    background-color: #ffffff; /* gold color */
+    width: 180px;      /* long lines */
+    opacity: 0.7;
+}
+
+.line.short {
+    width: 120px;      /* shorter top/bottom lines */
+}
+
+.smoke-text {
+    color: white;
+    font-style: italic;
+    font-size: 1.6rem;
+    line-height: 1.4;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.715);
+}
+@media (max-width:992px){
+    .line-group {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+}
+
+.section4 {
+    background-image: url(restfloor.jpg);
+    background-size: cover;
+    background-position:center;
+    height: 600px;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat ExtraBold;
+    text-align: center;
+  
+    margin: auto;
+
+
+}
+.overlay5{
+    background-color: rgba(0, 0, 0, 0.212);
+     height: 600px;
+       align-content: center;
+}
+.overlay2 {
+    background-color: rgba(255, 255, 255, 0.71);
+    /* padding: 100px 0; */
+    min-height: 200px;
+    align-content: center;
+}
+
+.overlay4 {
+    background-color: rgba(0, 0, 0, 0.404);
+    min-height: 250px;
+    padding-top: 50px;
+    align-content: center;
+  
+}
+
+.dash {
+    height: 2px;
+    width: 55%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+}
+
+.dash1 {
+    height: 2px;
+    width: 52%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+}
+.dash2 {
+    height: 2px;
+    width: 42%;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 0px;
+}
+.section5 {
+    background-image: url(catering2.avif);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.overlay9{
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 500px;
+    align-content: center;
+    background-size: cover;
+}
+
+.section6 {
+    text-align: center;
+    
+    margin: auto;
+}
+
+.section6 {
+    background-image: url(baking.avif);
+    color: black;
+    min-height: 200px;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: cursive;
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+.section7 {
+    background-image: url(bottle.avif);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+    
+    margin: auto;
+
+}
+.overlay8{
+    background-color: rgba(0, 0, 0, 0.281);
+    height: 500px;
+    align-content: center;
+}
+
+.section8 {
+    background: url(drinking.avif);
+    background-size: cover;
+    height: 500px;
+    color: white;
+    text-align: center;
+    background-position: center;
+    margin: auto;
+    font-family: FEAR Logo;
+}
+.overlay7{
+    background-color: rgba(0, 0, 0, 0.158);
+     height: 500px;
+     align-content: center;
+}
+.section9 {
+    text-align: center;
+    
+    margin: auto;
+    background-image: url(family.avif);
+    object-fit: cover;
+    background-size: cover;
+    font-family: Gill Sans;
+    background-position: center;
+    height: 300px;
+    background-position: center;
+}
+
+.overlay3 {
+    background-color: #cd8032ad;
+    /* padding: 100px 0; */
+    min-height: 300px;
+    align-content: center;
+}
+
+
+.section10 {
+    text-align: center;
+
+    margin: auto;
+    color: white;
+    background-image: url(cheffff.avif);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+
+}
+.overlay6{
+    background-color: rgba(0, 0, 0, 0.722);
+    height: 500px;
+    align-content: center;
+}
+.btn {
+    color: white;
+}
+
+.section11 {
+    background-color: rgb(61, 56, 56);
+    color: white;
+    /* margin: auto; */
+    font-size: 15px;
+    /* padding: 30px; */
+    font-family: Scriptina typeface;
+
+
+
+}
+
+.dot {
+    list-style-image: url(icons8-forward-15.png);
+    display: block;
+}
+
+.dot li a {
+    padding: 5px 0;
+    text-align: left;
+}
+.links{
+    padding-left: 120px;
+}
+
+
+ .inboxs{
+     background-image: url(logo-removebg-preview.png);
+     min-height: 250px;
+     min-width: 100px;
+     background-size: cover;
+     align-content: center;
+     object-fit: cover;
+     text-align: center;
+     align-content: center;
+     
+ }
+
+
+
+.section12 {
+    background-color: black;
+    color: grey;
+
+}
+
+.box2 {
+    word-spacing: 10px;
+    padding: 20px;
+}
+
+.box1 {
+    padding: 20px;
+
+}
