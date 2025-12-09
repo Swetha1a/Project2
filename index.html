@@ -23,51 +23,43 @@
 <body>
     <section class="section1 p-0" style="background-color: black;"> 
         <div class="container">
-    <nav class="navbar navbar-expand-md p-0">
-    <div class="container-fluid">
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top p-0" style="background-color: black;">
+  <div class="container-fluid">
 
-        <!-- Brand -->
-        <a class="navbar-brand fw-bold" href="#"> <img src="r1.png" alt="" width="50px" height="60px" style="align-items: center;padding-bottom: 5px;">4 RIVERS SMOKEHOUSE</a>
+    <!-- Brand -->
+    <a class="navbar-brand text-white fw-bold" href="javascript:void(0)">
+       <img src="r1.png" alt="" style="width: 60px;height: 60px;">
+      4 RIVERS SMOKEHOUSE
+    </a>
 
-        <!-- Toggler button (mobile) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <!-- Collapsible menu -->
-        <div class="collapse navbar-collapse" id="navbarContent">
-            
-            <!-- Centered navigation links -->
-            <ul class="navbar-nav mx-auto mb-2 mb-sm-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">MENU </a> 
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">LOCATIONS </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">CATERING </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">SHOP </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT</a>
-                </li>
-            </ul>
+    <!-- Collapsing Menu -->
+    <div class="collapse navbar-collapse" id="mynavbar">
 
-            <!-- Right-side Cart -->
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link d-flex align-items-center" href="#">
-                        CART 
-                        <img src="icons8-cart-26.png" alt="cart icon" class="ms-1" style="width:22px;">
-                    </a>
-                </li>
-            </ul>
-        </div>
+      <!-- Center Nav Links -->
+      <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item">
+         
+          <a class="nav-link text-white" href="#">MENU</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">LOCATION</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">CATERING</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">SHOP</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">ABOUT</a></li>
+      </ul>
+
+      <!-- Right Side -->
+      <ul class="navbar-nav ms-auto text-center">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="/">CART <img src="cart.png" alt=""></a>
+        </li>
+      </ul>
 
     </div>
+  </div>
 </nav>
 </div>
 </section>
@@ -380,5 +372,6 @@
         </div>
     </section>
 </body>
+
 
 </html>
